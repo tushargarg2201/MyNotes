@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/lightYellow"
+    android:weightSum="100">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/mediumYellow">
+    </View>
+
+    <TextView
+        android:id = "@+id/note_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="This is first note"
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:layout_weight="75"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id = "@+id/note_timestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Jan 2020"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:background="@color/lightYellow"
+        android:lines="1"
+        android:layout_weight="25">
+    </TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+    </View>
+
+</LinearLayout>

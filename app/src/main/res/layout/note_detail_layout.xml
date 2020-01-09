@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightYellow"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
+        <include layout="@layout/note_detail_toolbar_layout" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+
+        android:id = "@+id/note_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="23sp"
+        android:gravity="left|top"
+        android:padding="5dp"
+        android:focusable="true"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
